@@ -1,30 +1,28 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-<title>Language Translator</title>
+<title>AI Language Translator</title>
+
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-<div class="container">
+<div class="app">
 
-<h1>Language Translator</h1>
+<h1>🌐 AI Language Translator</h1>
 
 <form method="POST">
 
-<input type="text" name="text" id="textInput" placeholder="Enter text">
+<div class="panels">
 
-<button type="button" id="micBtn">🎤 Speak</button>
+<!-- LEFT PANEL -->
+<div class="card">
 
-<br><br>
-
-From:
+<textarea name="text" id="textInput" placeholder="Type or speak text..."></textarea>
 
 <select name="source">
-
 <option value="auto">Auto Detect</option>
 <option value="en">English</option>
 <option value="hi">Hindi</option>
@@ -36,21 +34,24 @@ From:
 <option value="ru">Russian</option>
 <option value="ja">Japanese</option>
 <option value="ko">Korean</option>
-<option value="zh-cn">Chinese</option>
+<option value="zh-CN">Chinese</option>
 <option value="ar">Arabic</option>
 <option value="tr">Turkish</option>
 <option value="nl">Dutch</option>
 <option value="pl">Polish</option>
 <option value="sv">Swedish</option>
-
 </select>
 
-<br><br>
+<button type="button" id="micBtn">🎤 Voice Input</button>
 
-To:
+</div>
+
+<!-- RIGHT PANEL -->
+<div class="card">
+
+<div class="result">{{ result }}</div>
 
 <select name="target">
-
 <option value="en">English</option>
 <option value="hi">Hindi</option>
 <option value="fr">French</option>
@@ -61,27 +62,25 @@ To:
 <option value="ru">Russian</option>
 <option value="ja">Japanese</option>
 <option value="ko">Korean</option>
-<option value="zh-cn">Chinese</option>
+<option value="zh-CN">Chinese</option>
 <option value="ar">Arabic</option>
 <option value="tr">Turkish</option>
 <option value="nl">Dutch</option>
 <option value="pl">Polish</option>
 <option value="sv">Swedish</option>
-
 </select>
 
-<br><br>
+<button type="submit" class="translateBtn">Translate</button>
 
-<button type="submit">Translate</button>
+</div>
+
+</div>
 
 </form>
 
-<div class="result">
-{{ result }}
 </div>
 
-</div>
+<script src="{{ url_for('static', filename='voice.js') }}"></script>
 
 </body>
-<script src="{{ url_for('static', filename='voice.js') }}"></script>
 </html>

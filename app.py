@@ -5,10 +5,12 @@ app = Flask(__name__)
 
 def translate_text(text, source, target):
     try:
-        translated = GoogleTranslator(source=source, target=target).translate(text)
+        translator = GoogleTranslator(source=source or "auto", target=target)
+        translated = translator.translate(text)
         return translated
-    except:
-        return "Translation error. Try again."
+    except Exception as e:
+        print("Error:", e)
+        return "Translation error"
 
 
 @app.route("/", methods=["GET", "POST"])
