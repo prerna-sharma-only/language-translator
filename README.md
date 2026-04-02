@@ -30,12 +30,9 @@ Designed with a clean UI and smooth user experience, this project demonstrates r
 
 ## 🖼️ Preview
 
-> 📸 Add your screenshot here (IMPORTANT for portfolio)
-
-```md
-<img width="1520" height="936" alt="image" src="https://github.com/user-attachments/assets/43ed6441-5c7d-40d7-9307-6c9cc1e2afed" />
-
-```
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/43ed6441-5c7d-40d7-9307-6c9cc1e2afed" width="800"/>
+</p>
 
 ---
 
