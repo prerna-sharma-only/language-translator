@@ -1,30 +1,16 @@
-<div align="center">
 
-# 🌍 AI Language Translator
 
-### 🚀 Translate Languages Instantly with Voice & AI
+🌍 AI Language Translator  
+🚀 Translate Languages Instantly with Voice & AI  
 
-<br>
-
-![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge)
-![CSS](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge)
-![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)
-
-<br>
-
-🔗 **Live Demo**
-👉 https://language-translator-1-bu8q.onrender.com
-
-</div>
+🔗 Live Demo 👉 https://language-translator-1-bu8q.onrender.com  
 
 ---
 
-## ✨ Overview
+✨ Overview  
+This is an AI-powered language translator web application built using **Python Flask (backend)** and a responsive frontend. It allows users to translate text between multiple languages with **voice input support** and **automatic language detection**.
 
-This is a modern **AI-powered language translator web app** that allows users to translate text between multiple languages with **voice input support** and **auto language detection**.
-
-Designed with a clean UI and smooth user experience, this project demonstrates real-world frontend development skills.
+The project demonstrates real-world **full stack development**, including API integration, backend handling, and interactive UI design.
 
 ---
 
@@ -36,101 +22,85 @@ Designed with a clean UI and smooth user experience, this project demonstrates r
 
 ---
 
-## 🚀 Features
-
-* 🌐 Multi-language translation
-* 🧠 Auto language detection
-* 🎤 Voice input (speech-to-text)
-* ⚡ Fast & real-time translation
-* 🎨 Modern dark UI with gradient design
-* 🔄 Easy language switching
-
----
-
-## 🛠️ Tech Stack
-
-| Technology      | Purpose                       |
-| --------------- | ----------------------------- |
-| HTML            | Structure                     |
-| CSS             | Styling (Dark UI + Gradients) |
-| JavaScript      | Logic & API handling          |
-| Web Speech API  | Voice input                   |
-| Translation API | Language conversion           |
+🚀 Features  
+🌐 Multi-language translation  
+🧠 Auto language detection  
+🎤 Voice input (speech-to-text)  
+⚡ Fast & real-time translation  
+🎨 Modern responsive UI  
+🔄 Easy language switching  
 
 ---
 
-## 🎮 How to Use
+🛠️ Tech Stack  
 
-```bash
-1. Enter text OR use 🎤 voice input
-2. Select source language (or auto detect)
-3. Select target language
-4. Click "Translate"
-5. Get instant result 🚀
-```
+| Technology        | Purpose                          |
+|------------------|----------------------------------|
+| Python           | Backend logic                   |
+| Flask            | Web framework (backend)         |
+| HTML             | Structure                       |
+| CSS              | Styling                         |
+| JavaScript       | Frontend logic & API handling   |
+| Web Speech API   | Voice input                     |
+| Translation API  | Language conversion             |
 
 ---
 
-## 📂 Project Structure
+🎮 How to Use  
+1. Enter text OR use 🎤 voice input  
+2. Select source language (or auto detect)  
+3. Select target language  
+4. Click "Translate"  
+5. Get instant result 🚀  
 
-```bash
+---
+
+📂 Project Structure  
 language-translator/
 │
-├── index.html
-├── style.css
-├── script.js
-└── assets/
-```
+├── static/
+├── templates/
+├── app.py
+├── requirements.txt
+
 
 ---
 
-## 🔥 Key Highlights
-
-* 🎤 Speech Recognition Integration
-* 🌍 Real-world API usage
-* ⚡ Instant UI updates
-* 🎨 Clean & modern design
-* 💡 Beginner → Intermediate level project
-
----
-
-## 📈 Future Improvements
-
-* 🔊 Text-to-speech output
-* 📜 Translation history
-* 🌙 Dark/Light mode toggle
-* 📱 Better mobile responsiveness
-* ⭐ Save favorite translations
+🔥 Key Highlights  
+🎤 Speech Recognition Integration  
+🌍 Real-world API usage  
+⚡ Fast response with backend processing  
+🎨 Clean and user-friendly interface  
+💡 Full stack project (Flask + Frontend)  
 
 ---
 
-## 💡 What I Learned
-
-* API integration using **fetch & async/await**
-* Working with **browser speech APIs**
-* DOM manipulation & event handling
-* UI/UX improvements in frontend projects
-
----
-
-## 🧑‍💻 Author
-
-**Prerna Sharma**
+📈 Future Improvements  
+🔊 Text-to-speech output  
+📜 Translation history  
+🌙 Dark/Light mode toggle  
+📱 Better mobile responsiveness  
+⭐ Save favorite translations  
 
 ---
 
-## ⭐ Support
-
-If you like this project:
-
-* ⭐ Star the repo
-* 🍴 Fork it
-* 📢 Share it
+💡 What I Learned  
+- Backend development using Flask  
+- API integration using Python & JavaScript  
+- Handling frontend-backend communication  
+- Working with browser speech APIs  
+- Improving UI/UX for real-world apps  
 
 ---
 
-<div align="center">
+🧑‍💻 Author  
+Prerna Sharma  
 
-### 🚀 Built with ❤️ for learning & development
+---
 
-</div>
+⭐ Support  
+If you like this project:  
+⭐ Star the repo  
+🍴 Fork it  
+📢 Share it  
+🚀 Built with ❤️ for learning & development  
