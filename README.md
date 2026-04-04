@@ -2,7 +2,7 @@
 <h3 align="center">🚀 Translate Languages Instantly with Voice & AI</h3>
 
 <p align="center">
-  <a href="">
+  <a href="https://language-translator-1-bu8q.onrender.com/">
     🔗 <b>Live Demo</b>
   </a>
 </p>
